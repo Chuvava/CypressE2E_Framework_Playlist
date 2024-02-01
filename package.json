@@ -1,0 +1,24 @@
+{
+  "name": "cypresse2e_framework_playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuvava/CypressE2E_Framework_Playlist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuvava/CypressE2E_Framework_Playlist/issues"
+  },
+  "homepage": "https://github.com/Chuvava/CypressE2E_Framework_Playlist#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-mochawesome-reporter": "^3.8.1"
+  }
+}
