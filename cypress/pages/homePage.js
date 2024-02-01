@@ -3,7 +3,7 @@ export class homePage {
     weblocators = {
         
         searchInput: '[name="search"]',
-        clickSearch: '.btn-default22',
+        clickSearch: '.btn-default',
         product: '.product-thumb img[title="MacBook"]',
         addToCart: 'Add to Cart',
         successMessage: 'div.alert.alert-success.alert-dismissible'
